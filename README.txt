@@ -1,17 +1,29 @@
 ###################### JChord v1.0 Leia-me ###################### 
-# Copyleft 2009 - 						#
+# UFRGS - UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL 		#
+# INSTITUTO DE INFORMÁTICA					#
+# DEPARTAMENTO DE INFORMÁTICA APLICADA 				#
+# INF01120 - Técnicas de Construção de Programas		#
+# Turma C - Prof. Marcelo Pimenta				#
+# Copyleft 2009 - Autores:					#
 # Bruno Pospichil <bmpospichil@inf.ufrgs.br>			#
-# Gabriel Stabel < >						#
-# Luiza Souza < >						#
+# Gabriel Stabel <gcstabel@inf.ufrgs.br >			#
+# Luiza de Souza < luiza.souza@inf.ufrgs.br >			#
 #################################################################
 
 1. Objetivos/Recursos
-	JChord é um programa de fins didáticos para auxiliar no estudo de acordes.
-Dado um determinado acorde o JChord tem como funcionalidade emitir o som 
-caracteristico do mesmo e exibir quais notas que o compõem (modo Acorde) ou 
-exibir e emitir individualmente as notas que o compõe (modo Arpejo).
-	A entrada de dados do JChord está descrita na seção 3.
+		
+	1.1. Objetivos
+		JChord é um programa de fins didáticos para auxiliar no estudo de acordes.
+	Dado um determinado acorde o JChord tem como funcionalidade emitir o som 
+	caracteristico do mesmo e exibir quais notas que o compõem (modo Acorde) ou 
+	exibir e emitir individualmente as notas que o compõe (modo Arpejo).
+		A entrada de dados do JChord está descrita na seção 3.
 
+	1.2. Executando
+		Pode-se executar o JChord de duas formas:
+		- Duplo clique, caso exista associação de arquivos jar para o java.exe;
+		- java -jar jchord.jar
+	
 	
 2. Requisitos de Sistema
 	
@@ -65,6 +77,17 @@ considerados somente os mais comuns, os símbolos aceitos pelo JChord são:
 "9", "°" e "5-/7" como modificadores (ou adicionadores) das demais notas.
 
 
-6. Suporte
+6. Bugs Possíveis
+	
+	Durante a definição do arpejo das cifras, foram encontradas informações contraditórias,
+portanto, podem haver certas cifras que não estejam corretamente definidas, caso encontre
+alguma cifra nessa condição, ou qualquer outro bug existente, favor comunicar aos autores
+por email.
+
+
+7. Suporte
 	
 	Questões de suporte podem ser tratadas com os autores.
+	- Bruno Pospichil < bmpospichil@inf.ufrgs.br >
+	- Gabriel Stabel <gcstabel@inf.ufrgs.br >
+	- Luiza de Souza < luiza.souza@inf.ufrgs.br >
